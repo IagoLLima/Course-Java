@@ -6,11 +6,11 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Client;
-import entities.OrderItem;
-import entities.OrderWithEnum;
-import entities.Product;
-import entities.enums.OrderStatus;
+import model.entities.Client;
+import model.entities.OrderItem;
+import model.entities.OrderWithEnum;
+import model.entities.Product;
+import model.entities.enums.OrderStatus;
 
 public class ProgramPedido {
   public static void main(String[] args) throws ParseException {

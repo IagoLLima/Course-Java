@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import entities.Account;
-import entities.BusinessAccount;
-import entities.SavingsAccount;
+import model.entities.Account;
+import model.entities.BusinessAccount;
+import model.entities.SavingsAccount;
 
 public class ProgramUpcastingandDowncastingandAbstract {
 	public static void main(String[] args) {

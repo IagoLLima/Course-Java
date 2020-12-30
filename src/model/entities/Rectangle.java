@@ -1,6 +1,6 @@
-package entities;
+package model.entities;
 
-import entities.enums.Color;
+import model.entities.enums.Color;
 
 public class Rectangle extends Shape {
 

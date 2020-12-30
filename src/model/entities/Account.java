@@ -1,4 +1,4 @@
-package entities;
+package model.entities;
 
 /*public abstract class Account - inserindo o abstract na classe, faz com que ela só possa ser usada 
 por herança, ou seja, no programa se instanciado a conta comum, irá dar erro.*/ 

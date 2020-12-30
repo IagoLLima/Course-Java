@@ -1,4 +1,4 @@
-package entities;
+package model.entities;
 
 public final class SavingsAccount extends Account{ // com final na Classe, não permiti gerar subsclasses dela
   

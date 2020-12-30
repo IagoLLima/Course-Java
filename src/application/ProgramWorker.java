@@ -6,10 +6,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Department;
-import entities.HourContract;
-import entities.Worker;
-import entities.enums.WorkerLevel;
+import model.entities.Department;
+import model.entities.HourContract;
+import model.entities.Worker;
+import model.entities.enums.WorkerLevel;
 
 public class ProgramWorker {
   public static void main(String[] args) throws ParseException {

@@ -2,8 +2,8 @@ package application;
 
 import java.util.Date;
 
-import entities.Order;
-import entities.enums.OrderStatus;
+import model.entities.Order;
+import model.entities.enums.OrderStatus;
 
 public class Program {
   public static void main(String[] args) {
