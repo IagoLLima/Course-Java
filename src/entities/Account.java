@@ -1,0 +1,48 @@
+package entities;
+
+/*public abstract class Account - inserindo o abstract na classe, faz com que ela só possa ser usada 
+por herança, ou seja, no programa se instanciado a conta comum, irá dar erro.*/ 
+
+public class Account {
+
+  private int number;
+  private String holder;
+  protected double balance;
+
+  public Account(){}
+
+  public Account(int number, String holder, double balance) {
+    this.number = number;
+    this.holder = holder;
+    this.balance = balance;
+  }
+
+  public int getNumber() {
+    return number;
+  }
+
+  public void setNumber(int number) {
+    this.number = number;
+  }
+
+  public String getHolder() {
+    return holder;
+  }
+
+  public void setHolder(String holder) {
+    this.holder = holder;
+  }
+
+  public double getBalance() {
+    return balance;
+  }
+
+  public void withdraw(double amount){
+    balance -= amount+5;
+  }
+
+  public void deposit(double amount){
+    balance += amount;
+  }
+
+}
